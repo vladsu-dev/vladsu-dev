@@ -1,16 +1,53 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/header.svg" alt="Владислав Субарев — Python backend-разработчик" width="100%" />
+</p>
 
-<!--
-**vladsu-dev/vladsu-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Пишу backend на Python: REST API, интеграции с внешними сервисами и работу с базами данных. В командных проектах занимаюсь серверной логикой, тестами и разбором замечаний к pull request.
 
-Here are some ideas to get you started:
+Учусь в **ГУАП** и на программе **«Профессия Python-разработчик» в Skillbox**. Ищу возможности развиваться в Python backend-разработке и работать над полезными продуктами в команде.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## С чем работаю
+
+| Направление | Технологии |
+| :--- | :--- |
+| API и интеграции | Python, FastAPI, Pydantic, HTTPX, requests |
+| Данные | PostgreSQL, SQLite, SQLAlchemy asyncio, Alembic |
+| Проверка кода | pytest, pytest-asyncio, Ruff |
+| Среда разработки | Git, Docker Compose, Poetry, Linux / macOS |
+
+## Проекты
+
+### Камчатка · backend для сопровождения гонок
+
+Командный проект хакатона: публичное API, административные операции и данные участников гонки.
+
+Мои направления работы: API новостей, расписания и карты, административная авторизация, общий лимит попыток входа через Redis и тесты. Работаю с разделением маршрутов, сервисов и репозиториев, участвую в обсуждении и проверке PR.
+
+`FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Redis` · `pytest`
+
+### МИРОНИКО · сайт логистической компании
+
+Работал над сайтом с серверной и статической версиями на общих шаблонах. Тексты и контакты хранятся в JSON; отдельные Python-скрипты проверяют обязательные поля и собирают каталог для публикации.
+
+`Python` · `FastAPI` · `Jinja2` · `HTML / CSS`
+
+### [MovieBot · поиск фильмов в Telegram](https://github.com/vladsu-dev/moviebot)
+
+Учебный проект с внешним API: поиск по названию и жанру, подборки фильмов, постраничная навигация и сохранение истории запросов в SQLite.
+
+`pyTelegramBotAPI` · `requests` · `Peewee` · `SQLite`
+
+## Что мне интересно в разработке
+
+Понятные границы модулей, предсказуемые ошибки API и тесты, которые проверяют поведение приложения. Сейчас углубляюсь в асинхронный Python, транзакции и многозадачность.
+
+<details>
+<summary>За пределами Python</summary>
+
+Экспериментирую с macOS-приложениями на Swift и SwiftUI. Один из проектов — прототип MacWinGameLauncher для управления профилями запуска Windows-приложений через Wine. Это исследовательский проект, совместимость с произвольными играми не заявляю.
+
+</details>
+
+---
+
+**Санкт-Петербург · Python backend · открыт к junior-позициям и стажировкам**

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Vladislav Subarev Python backend developer</title>
+  <desc id="desc">Владислав Субарев. Python, API, базы данных и тестирование.</desc>
+  <rect width="1200" height="260" rx="8" fill="#171717"/>
+  <rect x="40" y="38" width="8" height="18" fill="#65D39B"/>
+  <text x="64" y="53" fill="#A3A3A3" font-family="monospace" font-size="15" letter-spacing="0">PYTHON BACKEND DEVELOPER</text>
+  <text x="40" y="124" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="0">VLADISLAV SUBAREV</text>
+  <text x="42" y="168" fill="#D4D4D4" font-family="Arial, sans-serif" font-size="22" letter-spacing="0">API / DATABASES / INTEGRATIONS / TESTS</text>
+  <path d="M42 211 H1158" stroke="#404040"/>
+  <text x="42" y="241" fill="#65D39B" font-family="monospace" font-size="15" letter-spacing="0">vladsu-dev</text>
+  <text x="762" y="241" fill="#A3A3A3" font-family="monospace" font-size="15" letter-spacing="0">Python / FastAPI / PostgreSQL</text>
+</svg>
