@@ -19,14 +19,15 @@
 
 ### [Авача: бэкенд для гонки на Камчатке](https://github.com/St3pAn1ndzy/kamchatka_race_back/tree/develop)
 
-Командный проект хакатона Skillbox. Работал над публичным API, админкой и тестами. По ссылке выше открывается рабочая ветка `develop`.
+Командный проект хакатона Skillbox. Работал над публичным API и админкой: от моделей и миграций базы данных до сервисов, роутов и тестов. По ссылке выше открывается рабочая ветка `develop`.
 
 **Мой вклад:**
 
-- [Импорт маршрутов KML/GPX](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/63): предпросмотр, привязка трассы и контрольных пунктов к этапам.
-- [Замена трассы во время этапа](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/64): сохранение GPS-истории и пересчёт прогресса участников.
-- [Демонстрация движения трекера и SOS](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/66): отдельная демобаза и обновление карты и тревог без перезагрузки страницы.
-- [Документация проекта](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/68): инструкции запуска и руководство для сотрудников по работе с админкой.
+- [Справочники гонки](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/34): модели сезонов и дисциплин в SQLAlchemy, связи этапов и участников, миграция Alembic, схемы Pydantic, репозитории, сервис и роуты FastAPI.
+- [Публичное API](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/19): схемы ответов, запросы к базе и роуты для новостей, расписания и FAQ.
+- Административные операции: [назначение трекеров участникам](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/40), [создание и корректировка судейских отметок](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/41), аудит изменений и обработка конфликтов при записи.
+- Маршруты: [импорт KML/GPX с предпросмотром](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/63), [замена трассы](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/64) с сохранением GPS-истории и пересчётом прогресса.
+- Подготовка к показу: [демосценарий трекера и SOS](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/66), [инструкции запуска и руководство по админке](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/68). Также работал над тестами API и сервисов на pytest.
 
 `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Redis` · `pytest`
 
