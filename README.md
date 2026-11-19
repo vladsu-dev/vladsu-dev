@@ -10,12 +10,24 @@
 
 | Направление | Технологии |
 | :--- | :--- |
-| API и интеграции | Python, FastAPI, Pydantic, HTTPX, requests |
+| API и интеграции | Python, FastAPI, Django, Pydantic, HTTPX, requests |
 | Данные | PostgreSQL, SQLite, SQLAlchemy asyncio, Alembic |
 | Проверка кода | pytest, pytest-asyncio, Ruff |
 | Среда разработки | Git, Docker Compose, Poetry, Linux / macOS |
 
 ## Проекты
+
+### [CRM для услуг и рекламных кампаний](https://github.com/vladsu-dev/django-crm)
+
+Веб-приложение для работы с лидами от первого обращения до договора. Реализовал контроль доступа по ролям, учёт услуг и кампаний, загрузку договоров с проверкой прав и отчёт по конверсиям и договорным суммам.
+
+`Django` · `PostgreSQL` · `Docker Compose` · `pytest`
+
+### [Синхронизация файлов с Яндекс Диском](https://github.com/vladsu-dev/yandex-disk-file-sync)
+
+CLI-сервис для одностороннего зеркалирования локальной папки. Сравнивает содержимое по хешам, загружает изменения и откладывает облачные удаления, если сверка или загрузка прошла с ошибкой.
+
+`Python` · `Yandex Disk REST API` · `requests` · `unittest`
 
 ### [Авача: бэкенд для гонки на Камчатке](https://github.com/St3pAn1ndzy/kamchatka_race_back/tree/develop)
 
