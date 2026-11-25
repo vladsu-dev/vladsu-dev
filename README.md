@@ -2,7 +2,7 @@
   <img src="assets/header.svg" alt="Владислав Субарев — Python backend-разработчик" width="100%" />
 </p>
 
-Разрабатываю серверные приложения на **FastAPI и Django**. Ищу junior-позицию или стажировку в Python backend. Живу в Санкт-Петербурге, рассматриваю удалённый и гибридный формат.
+Разрабатываю API и Telegram-ботов на Python. Для серверной части использую **FastAPI и Django**, для хранения данных — **PostgreSQL**. Ищу junior-позицию или стажировку в Python backend. Живу в Санкт-Петербурге, рассматриваю удалённый и гибридный формат.
 
 ## Избранные проекты
 
@@ -22,6 +22,12 @@
 - Подготовка к показу: [демосценарий трекера и SOS](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/66), [инструкции запуска и руководство по админке](https://github.com/St3pAn1ndzy/kamchatka_race_back/pull/68). Также работал над тестами API и сервисов на pytest.
 
 </details>
+
+### [Трекер привычек · Telegram и FastAPI](https://github.com/vladsu-dev/habit-tracker-bot)
+
+Разработал бота, который напоминает о привычках по местному времени пользователя. Отметку за сегодня можно исправить до полуночи. Даже если два запроса приходят одновременно, в прогресс засчитывается одно выполнение. За доступ к данным отвечает FastAPI, за расписание — отдельный фоновый процесс.
+
+[Правила трекинга](https://github.com/vladsu-dev/habit-tracker-bot/tree/main/app/habits) · [Интеграционный тест](https://github.com/vladsu-dev/habit-tracker-bot/blob/main/tests/test_service.py)
 
 ### [Django CRM · от первого обращения до договора](https://github.com/vladsu-dev/django-crm)
 
